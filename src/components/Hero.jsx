@@ -130,7 +130,7 @@ const Hero = () => {
                 className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-600 rounded-full blur-xl opacity-30"
               ></motion.div>
               <motion.img
-                src="/images/jhon-michael-alarcon-alaro.jpg"
+                src={`${import.meta.env.BASE_URL}images/jhon-michael-alarcon-alaro.jpg`}
                 alt={personalInfo.name}
                 className="relative w-80 h-80 rounded-full object-cover border-4 border-white shadow-2xl"
                 whileHover={{ scale: 1.05 }}
