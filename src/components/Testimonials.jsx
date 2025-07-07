@@ -47,7 +47,7 @@ const Testimonials = () => {
               <div className="flex items-center gap-4">
                 <div className="flex-shrink-0">
                   <img
-                    src={testimonial.avatar}
+                    src={testimonial.avatar.startsWith('http') ? testimonial.avatar : `${import.meta.env.BASE_URL}${testimonial.avatar.replace(import.meta.env.BASE_URL, '').replace(/^\//, '')}`}
                     alt={testimonial.name}
                     className="w-12 h-12 rounded-full object-cover border-2 border-blue-200"
                   />

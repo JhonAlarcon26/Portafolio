@@ -56,7 +56,7 @@ const Navbar = () => {
               className="text-2xl font-bold text-gradient cursor-pointer"
               onClick={() => scrollToSection('#home')}
             >
-              CR
+              Portafolio
             </a>
           </motion.div>
 

@@ -75,7 +75,7 @@ const Projects = () => {
               {/* Project Image */}
               <div className="relative overflow-hidden">
                 <img
-                  src={project.image}
+                  src={project.image.startsWith('http') ? project.image : `${import.meta.env.BASE_URL}${project.image.replace(import.meta.env.BASE_URL, '').replace(/^\//, '')}`}
                   alt={project.title}
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
                 />
