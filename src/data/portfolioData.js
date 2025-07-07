@@ -6,7 +6,7 @@ export const personalInfo = {
   phone: "+591 7562 9487",
   location: "Santa Cruz, Bolivia",
   about: "Soy un desarrollador web apasionado con experiencia creando aplicaciones web modernas y eficientes. Me especializo en el desarrollo web con tecnologías como PHP, JavaScript, Html, Css , MySQL y Api Testing. Mi objetivo es crear soluciones digitales que no solo cumplan con los requisitos técnicos, sino que también proporcionen una excelente experiencia de usuario.",
-  cv: `${process.env.PUBLIC_URL}/documents/jhon-michael-cv.pdf`
+  cv: "/documents/jhon-michael-cv.pdf"
 };
 
 export const skills = {
@@ -45,7 +45,7 @@ export const projects = [
     id: 1,
     title: "Especial Obituary",
     description: "Desarrollé módulos web personalizados para la plataforma de El Deber usando PHP y APIs REST. Realicé pruebas con Postman y mejoré la experiencia móvil mediante diseño responsive.",
-    image: `${process.env.PUBLIC_URL}/images/12.png`,
+    image: "/images/12.png",
     technologies: ["PHP", "html", "css", "JavaScript", "Bootstrap", " Api Rest"],
     github: "https://github.com/JhonAlarcon26/Obituary.git",
     live: "https://enelrecuerdo.eldeber.com.bo/",
@@ -151,7 +151,7 @@ export const testimonials = [
     name: "Miguel Valdez",
     position: "Product Manager Digital",
     content: "Jhon demostró excelentes habilidades técnicas durante su trabajo en el proyecto Especial Obituary. Su conocimiento en PHP y APIs REST fue fundamental para el éxito del proyecto.",
-    avatar: `${process.env.PUBLIC_URL}/images/15.png`
+    avatar: "/images/15.png"
   },
   /*{
     name: "Profesor Infocal",
